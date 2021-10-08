@@ -624,7 +624,7 @@ text-align: center;
 color: var(--primary-text-color);
 background-color: #F5F4FA;
 border-radius: 4px;
-transition-property: background-color, color;
+transition-property: background-color, color, box-shadow;
 transition-delay: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
