@@ -104,7 +104,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 transition-property: color;
-    transition-delay: 250ms;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
