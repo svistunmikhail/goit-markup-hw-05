@@ -5,6 +5,7 @@
     --primary-backgraund-color:#FFFFFF;
     --secondary-backgraund-color:#2F303A;
     --akcent-text-color: #FFFFFF;
+    --social-icon-color: #AFB1B8
 
 }
 
@@ -218,8 +219,8 @@ color: var(--akcent-text-color);
 }
 
 .hero-btn {
-    display: inline-block;
-    padding: 32px 10px;
+display: inline-block;
+padding: 32px 10px;
 border: 0;
 cursor: pointer;
 padding: 10px 32px;
@@ -313,6 +314,10 @@ text-align: center;
 }
 
 .img-text {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 70px;
 background-color: rgba(47, 48, 58, 0.8);
 font-weight: 700;
 font-size: 14px;
@@ -323,8 +328,6 @@ color:var(--akcent-text-color);
 position: absolute;
 bottom: 0;
 width: 100%;
-padding-top: 27px;
-padding-bottom: 27px;
 margin: 0;
 }
 
@@ -390,7 +393,7 @@ color:var(--secondary-text-color);
     }
 
 .socials-icon {
-    fill: #AFB1B8;
+    fill: var(--social-icon-color);
     height: 20px;
     width: 20px;
     transition-property: fill;
@@ -454,7 +457,7 @@ margin-bottom: 50px;
 }
 
 .clients-icon {
-fill: #AFB1B8;
+fill: var(--social-icon-color);
 width: 106px;
 height: 60px;
 transition-property: fill;
@@ -471,7 +474,7 @@ height: 92px;
 width: 100%;
 height: 100%;
 background-color: var(--primary-backgraund-color);
-border: 1px solid #AFB1B8;
+border: 1px solid var(--social-icon-color);
 border-radius: 4px;
 display: flex;
 justify-content: center;
@@ -483,7 +486,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .clients-link:focus, 
 .clients-link:hover {
-border: 1px solid #2196F3;
+border: 1px solid var(--akcent-color);
 }
 
 .clients-link:focus .clients-icon, 
@@ -497,7 +500,7 @@ fill: var(--akcent-color);
 /* -----------FOOTER----------- */
 
 .footer {
-background-color: #2F303A;
+background-color: var(--secondary-backgraund-color);
 padding-top: 60px;
 padding-bottom: 60px;
 }
@@ -737,7 +740,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     
 }
 
-.filter-list-item:hover .top-text {
+.filter-list-item:hover .top-text,
+.filter-list-item:focus .top-text {
     transform: translateY(0);
     
 }
@@ -773,7 +777,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     position: relative;
     width: 528px;
     min-height: 581px;
-    background: #FFFFFF;
+    background: var(--akcent-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transform: scale(1) ;
